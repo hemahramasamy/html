@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .ho{
+            background-color: crimson;
+            width: 250px;
+            height: 100px;
+            transition-property:width;
+            transition-duration: 5s;
+            transition-delay: 1s;
+            top: 10px;
+            left: 20px;
+          }
+          .one
+          {
+            background-color: deeppink;
+            width: 150px;
+            height: 150px;
+            transition-duration: 4s;
+            transition-property: transform;
+            
+          }
+          .ho:hover{
+            width: 300px;
+          }
+          .one:hover{
+            transform: rotate(360deg);
+          }
+        </style>
+    </head>
+    <body>
+        <div class="ho"></div><br>
+        <div class="one"></div>
+    </body>
+</html>
