@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .one
+           {
+           
+            width: 200px;
+            height: 200px;
+            animation-name: anime;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 2s;
+            animation-timing-function: cubic-bezier(.61,1.29,.89,.03);
+            animation-fill-mode: forwards;
+            background-color: yellow;
+            position: relative;
+            top:20px;
+            left:20px;
+           
+           }
+           @keyframes anime
+           {
+            0%{background-color: palevioletred;
+           left:20px; top: 20px;}
+            25%{background-color: aqua;
+            left:250px;top:20px;}
+            50%{background-color: darkorchid;
+           left:250px;top:250px; }
+            75%{background-color: red;
+            left:20px;top:250px;}
+            100%{background-color: burlywood;
+            left:20px;top:20px;}
+           }
+           
+           
+        </style>
+    </head>
+    <body>
+        <div class="one"></div>
+    </body>
+</html>
