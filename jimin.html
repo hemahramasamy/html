@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .bts
+            {
+                border: 2px solid black;
+                display: flex;
+                margin-top: 150px;
+                background-color: plum;
+            }
+            .zero,.one,.two,.three
+            {
+                padding: 10px;
+            
+            }
+            @media screen and (max-width: 800px)
+            {
+                .bts{
+                    display: grid;
+                    grid-template-columns: 200px 200px;
+                }
+                  
+            }
+            @media screen and (max-width: 500px)
+            {
+                .bts{
+                    display: grid;
+                    grid-template-columns: 200px;
+                }
+            }
+            
+           
+        </style>
+    </head>
+    <body>
+        <div class="bts">
+        <div class="zero">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/64220f7565b1c240be10b24d/0x0.jpg?format=jpg&crop=1485,989,x0,y89,safe&height=900&width=1600&fit=bounds" width="200px" height="200px">
+        </div>
+        <div class="one"><img src="https://i.pinimg.com/736x/f7/b9/f2/f7b9f282831506839fd9651864cfe36e.jpg" width="200px" height="200px"></div>
+        <div class="two"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRudwvdduDsquaZqwsp0_ou1YnU8SaRlkXiA&s" width="200px" height="200px"></div>
+        <div class="three"><img src="https://m.economictimes.com/thumb/msid-94131512,width-1200,height-1200,resizemode-4,imgsize-40864/bts-star-jin-to-make-his-solo-debut-all-details.jpg" width="200px" height="200px"></div>
+        </div>
+    </body>
+</html>
